@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Context>
-      <Resource accessToUnderlyingConnectionAllowed="true" 
-        type="javax.sql.DataSource"
-        driverClassName="org.h2.Driver"
-        name="jdbc/main" 
-        username="root"
-        password="root" 
-        removeAbandoned="false" 
-        removeAbandonedTimeout="60" 
-        logAbandoned="true" 
-        url="jdbc:h2:file:~/718a6c2fd4004959a4f3e167613127ec;DATABASE_TO_UPPER=false;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" />
+<?xml version="1.0" encoding="UTF-8"?><Context>
+    <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/main" password="root" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:h2:file:~/718a6c2fd4004959a4f3e167613127ec;DATABASE_TO_UPPER=false;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" username="root"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" name="jdbc/Atelie1" password="7onno46rs61587qs" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://rds-oncronos-shared.cx8gelec2ybx.us-east-1.rds.amazonaws.com:3306/63aadade-7619-4217-baab-46ef61587dfe" username="63nnqnqr76194217"/>
 </Context>
